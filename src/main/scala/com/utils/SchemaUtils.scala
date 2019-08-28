@@ -2,6 +2,9 @@ package com.utils
 
 import org.apache.spark.sql.types._
 
+/**
+  * 字段的元数据信息
+  */
 object SchemaUtils {
 
   val structtype = StructType(
